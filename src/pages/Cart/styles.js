@@ -92,3 +92,11 @@ export const Total = styled.div`
     margin-left: 5px;
   }
 `;
+
+export const EmptyCart = styled.div`
+  text-align: center;
+
+  h1 {
+    margin-top: 20px;
+  }
+`;

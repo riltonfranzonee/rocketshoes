@@ -5,7 +5,7 @@ import {
   MdRemoveCircleOutline,
   MdAddCircleOutline,
   MdDelete,
-  MdAddShoppingCart,
+  MdRemoveShoppingCart,
 } from 'react-icons/md';
 import { Container, ProductTable, Total, EmptyCart } from './styles';
 import { formatPrice } from '../../util/format';
@@ -83,7 +83,7 @@ function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
         </>
       ) : (
         <EmptyCart>
-          <MdAddShoppingCart size={120} color="#3394ff" />
+          <MdRemoveShoppingCart size={120} color="#3394ff" />
           <h1>Your cart is empty</h1>
         </EmptyCart>
       )}
